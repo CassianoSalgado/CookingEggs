@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CozinhandoOvo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FundOvo" translatesAutoresizingMaskIntoConstraints="NO" id="cRN-lU-vsj">
+                                <rect key="frame" x="-49" y="0.0" width="513" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Como você quer seu ovo?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0HU-rA-zeb">
+                                <rect key="frame" x="93" y="92" width="228" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Líquido" translatesAutoresizingMaskIntoConstraints="NO" id="N7m-7f-ebr">
+                                <rect key="frame" x="26" y="265" width="99" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Líquido_Mole" translatesAutoresizingMaskIntoConstraints="NO" id="lnh-Tw-jCK">
+                                <rect key="frame" x="158" y="265" width="99" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mole" translatesAutoresizingMaskIntoConstraints="NO" id="bmb-GN-h1y">
+                                <rect key="frame" x="289" y="265" width="99" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Médio" translatesAutoresizingMaskIntoConstraints="NO" id="1f8-gt-Rwy">
+                                <rect key="frame" x="26" y="479" width="99" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Médio_Duro" translatesAutoresizingMaskIntoConstraints="NO" id="Se9-30-t6F">
+                                <rect key="frame" x="158" y="479" width="99" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Duro" translatesAutoresizingMaskIntoConstraints="NO" id="LuH-6B-WrD">
+                                <rect key="frame" x="289" y="479" width="99" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D5N-60-7vt">
+                                <rect key="frame" x="26" y="372" width="99" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Líquido">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="selecionando:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0E6-9v-Cxx"/>
+                                    <segue destination="nOy-CP-CvM" kind="show" id="V4q-9g-d1e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGT-6D-uQO">
+                                <rect key="frame" x="158" y="372" width="99" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Líquido Mole">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="selecionando:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gx5-sK-d2m"/>
+                                    <segue destination="nOy-CP-CvM" kind="showDetail" id="Sci-H4-eq4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTW-pS-wc9">
+                                <rect key="frame" x="289" y="372" width="99" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Mole">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="selecionando:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AY8-DJ-5Ca"/>
+                                    <segue destination="nOy-CP-CvM" kind="showDetail" id="bSu-ZM-4cN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ig8-hf-2Ld">
+                                <rect key="frame" x="26" y="586" width="99" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Médio">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="selecionando:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dB0-bR-u4q"/>
+                                    <segue destination="nOy-CP-CvM" kind="showDetail" id="D7W-Mm-Cx6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="slB-U3-Z9l">
+                                <rect key="frame" x="158" y="586" width="99" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.92156862750000001" green="0.1137254902" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Médio Duro">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="selecionando:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d8O-Kb-vQS"/>
+                                    <segue destination="nOy-CP-CvM" kind="showDetail" id="alh-7p-Eqx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQw-Oz-RU1">
+                                <rect key="frame" x="289" y="586" width="99" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Duro">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="selecionando:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Avl-TU-WIE"/>
+                                    <segue destination="nOy-CP-CvM" kind="showDetail" id="0DT-vl-vdE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="titulo" destination="0HU-rA-zeb" id="3nS-kv-5DM"/>
+                        <outletCollection property="selecao" destination="D5N-60-7vt" collectionClass="NSMutableArray" id="cZD-v1-nvN"/>
+                        <outletCollection property="selecao" destination="iGT-6D-uQO" collectionClass="NSMutableArray" id="5sk-hz-VGM"/>
+                        <outletCollection property="selecao" destination="mTW-pS-wc9" collectionClass="NSMutableArray" id="dRa-GQ-Bg9"/>
+                        <outletCollection property="selecao" destination="Ig8-hf-2Ld" collectionClass="NSMutableArray" id="EYz-Ni-hhP"/>
+                        <outletCollection property="selecao" destination="slB-U3-Z9l" collectionClass="NSMutableArray" id="ip3-n5-kdr"/>
+                        <outletCollection property="selecao" destination="ZQw-Oz-RU1" collectionClass="NSMutableArray" id="k1P-7A-MOf"/>
+                        <outletCollection property="imagens" destination="N7m-7f-ebr" collectionClass="NSMutableArray" id="Skl-cf-PX7"/>
+                        <outletCollection property="imagens" destination="lnh-Tw-jCK" collectionClass="NSMutableArray" id="AmN-Rp-jAA"/>
+                        <outletCollection property="imagens" destination="bmb-GN-h1y" collectionClass="NSMutableArray" id="tJK-Tv-nSK"/>
+                        <outletCollection property="imagens" destination="1f8-gt-Rwy" collectionClass="NSMutableArray" id="ceZ-pP-kVh"/>
+                        <outletCollection property="imagens" destination="Se9-30-t6F" collectionClass="NSMutableArray" id="nlg-IS-9RO"/>
+                        <outletCollection property="imagens" destination="LuH-6B-WrD" collectionClass="NSMutableArray" id="g7x-9y-Qt5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="115.84821428571428"/>
+        </scene>
+        <!--Timer View Controller-->
+        <scene sceneID="D8u-7d-Xag">
+            <objects>
+                <viewController storyboardIdentifier="TimerView" id="nOy-CP-CvM" customClass="TimerViewController" customModule="CozinhandoOvo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QO0-ze-dZR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FundOvo" translatesAutoresizingMaskIntoConstraints="NO" id="LhJ-Yk-Al7">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="99t-oj-HDd">
+                                <rect key="frame" x="20" y="133" width="374" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a2k-Rp-AiN">
+                                <rect key="frame" x="85" y="509" width="244" height="5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mCZ-0K-rW2">
+                                <rect key="frame" x="142" y="328" width="130" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aux-ME-koR">
+                                <rect key="frame" x="142" y="328" width="130" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dAY-3U-Drs">
+                                <rect key="frame" x="147" y="333" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jbc-gz-tgK">
+                                <rect key="frame" x="152" y="338" width="110" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Dc-Za-Vt3">
+                                <rect key="frame" x="157" y="343" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6mQ-RP-sW9">
+                                <rect key="frame" x="162" y="348" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wKd-IL-U74">
+                                <rect key="frame" x="167" y="353" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sBC-YC-ocJ"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SvE-zC-3T2"/>
+                    <connections>
+                        <outlet property="ancoraOvo" destination="wKd-IL-U74" id="aa8-39-adj"/>
+                        <outlet property="animaOvo" destination="mCZ-0K-rW2" id="axN-6f-Ep7"/>
+                        <outlet property="barraProgresso" destination="a2k-Rp-AiN" id="qbc-TG-zdc"/>
+                        <outlet property="fundo" destination="QO0-ze-dZR" id="9C4-wT-hwR"/>
+                        <outlet property="timer" destination="99t-oj-HDd" id="Qme-9p-h0D"/>
+                        <outletCollection property="pontoOvo" destination="aux-ME-koR" collectionClass="NSMutableArray" id="Pac-oY-Xwn"/>
+                        <outletCollection property="pontoOvo" destination="dAY-3U-Drs" collectionClass="NSMutableArray" id="LwI-VS-gL0"/>
+                        <outletCollection property="pontoOvo" destination="jbc-gz-tgK" collectionClass="NSMutableArray" id="y6E-vf-E5T"/>
+                        <outletCollection property="pontoOvo" destination="0Dc-Za-Vt3" collectionClass="NSMutableArray" id="VAn-Ty-inn"/>
+                        <outletCollection property="pontoOvo" destination="6mQ-RP-sW9" collectionClass="NSMutableArray" id="fmF-I2-JTR"/>
+                        <outletCollection property="pontoOvo" destination="wKd-IL-U74" collectionClass="NSMutableArray" id="Ucl-Z0-Xw2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="leK-SQ-AGs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="792.75362318840587" y="115.84821428571428"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="D7W-Mm-Cx6"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="Duro" width="2048" height="2048"/>
+        <image name="FundOvo" width="1125" height="2436"/>
+        <image name="Líquido" width="2048" height="2048"/>
+        <image name="Líquido_Mole" width="2048" height="2048"/>
+        <image name="Médio" width="2048" height="2048"/>
+        <image name="Médio_Duro" width="2048" height="2048"/>
+        <image name="Mole" width="2048" height="2048"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
